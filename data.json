@@ -1,0 +1,342 @@
+{
+    
+
+
+  
+    "team": [
+      {
+        "id": 1,
+        "name": "Ameksa khadija",
+        "role": "Développeur Web",
+        "bio": "Développeur expérimenté passionné par les technologies web modernes.",
+        "skills": ["HTML", "CSS", "JavaScript", "React"],
+        "image": "https://intranet.youcode.ma/storage/users/profile/868-1727859809.JPG",
+        "availability": [
+          {
+            "day": "Lundi",
+            "timeSlots": ["9:00 - 11:00", "14:00 - 16:00"]
+          },
+          {
+            "day": "Mardi",
+            "timeSlots": ["10:00 - 12:00", "15:00 - 17:00"]
+          },
+          {
+            "day": "Mercredi",
+            "timeSlots": ["9:00 - 12:00"]
+          },
+          {
+            "day": "Jeudi",
+            "timeSlots": ["13:00 - 17:00"]
+          },
+          {
+            "day": "Vendredi",
+            "timeSlots": ["9:00 - 11:00", "13:00 - 16:00"]
+          }
+        ],
+        "testimonials": [
+          {
+            "clientName": "Alice Smith",
+            "feedback": "John a fait un excellent travail sur notre projet!",
+            "date": "2024-10-05",
+            "clientImage": "https://example.com/images/alice_smith.jpg"
+          }
+        ],
+        "reviews": [
+          {
+            "client": "Jean Martin",
+            "rating": 5,
+            "comment": "Excellent travail, très réactive !"
+          },
+          {
+            "client": "Sarah Dubois",
+            "rating": 4,
+            "comment": "Bon travail mais quelques retards dans les délais."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Ahmed fuollane",
+        "role": "Designer UX/UI",
+        "bio": "Designer créative spécialisée dans les interfaces intuitives et esthétiques.",
+        "skills": ["Figma", "Sketch", "Adobe XD", "CSS"],
+        "image": "https://intranet.youcode.ma/storage/users/profile/1243-1727859879.JPG",
+        "availability": [
+          {
+            "day": "Lundi",
+            "timeSlots": ["10:00 - 13:00", "15:00 - 18:00"]
+          },
+          {
+            "day": "Mardi",
+            "timeSlots": ["9:00 - 12:00", "14:00 - 16:00"]
+          },
+          {
+            "day": "Mercredi",
+            "timeSlots": ["13:00 - 17:00"]
+          },
+          {
+            "day": "Jeudi",
+            "timeSlots": ["10:00 - 12:00", "14:00 - 17:00"]
+          },
+          {
+            "day": "Vendredi",
+            "timeSlots": ["9:00 - 11:00", "13:00 - 15:00"]
+          }
+        ],
+        "testimonials": [
+          {
+            "clientName": "Paul Martin",
+            "feedback": "Emma a vraiment capturé l'essence de notre marque dans le design!",
+            "date": "2024-09-20",
+            "clientImage": "https://example.com/images/paul_martin.jpg"
+          }
+        ],
+        "reviews": [
+          {
+            "client": "Jean Martin",
+            "rating": 5,
+            "comment": "Excellent travail, très réactive !"
+          },
+          {
+            "client": "Sarah Dubois",
+            "rating": 4,
+            "comment": "Bon travail mais quelques retards dans les délais."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Abdelilah kroud",
+        "role": "Développeur Backend",
+        "bio": "Passionné par la construction de solutions robustes et évolutives côté serveur.",
+        "skills": ["Node.js", "Express", "MongoDB", "SQL"],
+        "image": "https://intranet.youcode.ma/storage/users/profile/1268-1727966373.JPG",
+        "availability": [
+          {
+            "day": "Lundi",
+            "timeSlots": ["8:00 - 12:00", "13:00 - 15:00"]
+          },
+          {
+            "day": "Mardi",
+            "timeSlots": ["9:00 - 12:00", "15:00 - 17:00"]
+          },
+          {
+            "day": "Mercredi",
+            "timeSlots": ["10:00 - 14:00"]
+          },
+          {
+            "day": "Jeudi",
+            "timeSlots": ["9:00 - 12:00", "14:00 - 16:00"]
+          },
+          {
+            "day": "Vendredi",
+            "timeSlots": ["8:00 - 11:00", "13:00 - 15:00"]
+          }
+        ],
+        "testimonials": [
+          {
+            "clientName": "Fatima Zahra",
+            "feedback": "Amine a livré un backend solide et efficace pour notre application.",
+            "date": "2024-10-02",
+            "clientImage": "https://example.com/images/fatima_zahra.jpg"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Abdelhak ghandour",
+        "role": "Développeuse Full-Stack",
+        "bio": "Polyvalente et passionnée par l'intégration des aspects frontend et backend.",
+        "skills": ["JavaScript", "Vue.js", "Node.js", "Firebase"],
+        "image": "https://intranet.youcode.ma/storage/users/profile/1327-1727971436.JPG",
+        "availability": [
+          {
+            "day": "Lundi",
+            "timeSlots": ["9:00 - 11:00", "14:00 - 17:00"]
+          },
+          {
+            "day": "Mardi",
+            "timeSlots": ["10:00 - 12:00", "13:00 - 16:00"]
+          },
+          {
+            "day": "Mercredi",
+            "timeSlots": ["11:00 - 14:00", "15:00 - 17:00"]
+          },
+          {
+            "day": "Jeudi",
+            "timeSlots": ["9:00 - 12:00", "14:00 - 16:00"]
+          },
+          {
+            "day": "Vendredi",
+            "timeSlots": ["8:00 - 10:00", "13:00 - 15:00"]
+          }
+        ],
+        "testimonials": [
+          {
+            "clientName": "Karim Haddad",
+            "feedback": "Lucie a dépassé nos attentes avec son travail sur notre site web.",
+            "date": "2024-10-18",
+            "clientImage": "https://example.com/images/karim_haddad.jpg"
+          }
+        ],
+        "reviews": [
+          {
+            "client": "Jean Martin",
+            "rating": 5,
+            "comment": "Excellent travail, très réactive !"
+          },
+          {
+            "client": "Sarah Dubois",
+            "rating": 4,
+            "comment": "Bon travail mais quelques retards dans les délais."
+          }
+        ]
+      }
+    ],
+    
+      "projets": [
+          {
+              "img-projet": "image lawla",
+              "lien-img-projet": "lien image 1",
+              "date-projet": "4/8/2023",
+              "vue-projet": 55
+          },
+          {
+              "avis-projet": [
+                  {
+                      "avi-name": "john",
+                      "avi-text": "tre bon projet machallah ",
+                      "avi-star": 4
+                  },
+                  {
+                      "avi-name": "jasmin",
+                      "avi-text": "moyen qaliter ",
+                      "avi-star": 2
+                  }
+              ]
+          },
+          {
+              "img-projet": "image tanya",
+              "lien-img-projet": "lien kimakimage 2",
+              "date-projet": "12/1/2024",
+              "vue-projet": 67
+          },
+          {
+              "avis-projet": [
+                  {
+                      "avi-name": "boid",
+                      "avi-text": "pas mall projet ",
+                      "avi-star": 2
+                  },
+                  {
+                      "avi-name": "john",
+                      "avi-text": "je nai pas aimer malleuresment ",
+                      "avi-star": 1
+                  }
+              ]
+          },
+          {
+              "img-projet": "image talta",
+              "lien-img-projet": "lien image 3",
+              "date-projet": "4/8/2023",
+              "vue-projet": 84
+          },
+          {
+              "avis-projet": [
+                  {
+                      "avi-name": "driven",
+                      "avi-text": "tre bon projet machallah ",
+                      "avi-star": 5
+                  },
+                  {
+                      "avi-name": "darius",
+                      "avi-text": "bon projet bon quality ",
+                      "avi-star": 4
+                  }
+              ]
+          }
+      ],
+  
+  
+    "services": [
+      {
+        "id": 1,
+        "name": "Développement Web",
+        "description": "Création de sites web réactifs et dynamiques.",
+        "specialties": ["Front-End", "Back-End"],
+        "teamMemberId": 4,
+        "pricing": [
+          {
+            "package": "Basique",
+            "price": 500,
+            "deliveryTime": "5 jours"
+          },
+          {
+            "package": "Avancé",
+            "price": 1000,
+            "deliveryTime": "10 jours"
+          }
+        ]
+      }
+    ],
+    "contact": {
+      "email": "support@devconnect.com",
+      "phone": "+1234567890",
+      "address": "1234 Rue du Développement Web, Ville Code, DevLand",
+      "testimonials": [
+        {
+          "clientImage": "https://example.com/images/sarah_connor.jpg",
+          "date": "2024-08-15",
+          "clientName": "Sarah Connor",
+          "clientMessage": "Sarah m'a été d'une grande aide et m'a guidé dans tous les détails dont j'avais besoin. J'ai vraiment apprécié sa patience et ses connaissances !",
+          "memberReplays": [
+            {
+              "memberReplayImg": "https://intranet.youcode.ma/storage/users/profile/1243-1727859879.JPG",
+              "memberReplayName": "Ahmed foullane",
+              "replay": "Merci pour votre retour positif ! Nous sommes ravis que Sarah ait pu vous aider."
+            }
+          ]
+        },
+        {
+          "clientImage": "https://example.com/images/john_doe.jpg",
+          "date": "2024-09-10",
+          "clientName": "John Doe",
+          "clientMessage": "Le service fourni par Ahmed était exceptionnel ! Il a répondu rapidement et avec beaucoup de professionnalisme. Merci encore !",
+          "memberReplays": [
+            {
+              "memberReplayImg": "https://intranet.youcode.ma/storage/users/profile/868-1727859809.JPG",
+              "memberReplayName": "Khadija Ameksa",
+              "replay": "Merci beaucoup pour votre gentil commentaire, John ! Je suis heureux d'avoir pu vous aider."
+            }
+          ]
+        },
+        {
+          "clientImage": "https://example.com/images/mark_jones.jpg",
+          "date": "2024-07-20",
+          "clientName": "Mark Jones",
+          "clientMessage": "Je suis impressionné par le professionnalisme de Youssef. Il a pris le temps d'expliquer les détails et de m'accompagner dans mon projet.",
+          "memberReplays": [
+            {
+              "memberReplayImg": "https://intranet.youcode.ma/storage/users/profile/1327-1727971436.JPG",
+              "memberReplayName": "Abdelhak Ghandour",
+              "replay": "Merci, Mark ! Je suis ravi d'avoir pu contribuer à votre projet et de vous avoir apporté l'assistance dont vous aviez besoin."
+            }
+          ]
+        },
+        {
+          "clientImage": "https://example.com/images/emma_smith.jpg",
+          "date": "2024-10-05",
+          "clientName": "Emma Smith",
+          "clientMessage": "Laila a fait preuve d'une grande efficacité. Elle a répondu à mes questions et m'a apporté l'aide dont j'avais besoin rapidement. Un grand merci !",
+          "memberReplays": [
+            {
+              "memberReplayImg": "https://intranet.youcode.ma/storage/users/profile/1268-1727966373.JP",
+              "memberReplayName": "Abdelilah Kroud",
+              "replay": "Merci pour vos gentils mots, Emma ! Cela a été un plaisir de vous aider."
+            }
+          ]
+        }
+      ]
+    }
+  }
+  
