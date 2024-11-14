@@ -1,0 +1,161 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Katibeh&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif; 
+}
+header {
+    background-color: #D5CABC;
+    height: 65px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .navLogOut {
+    display: none;
+    background-color: #D5CABC;
+  }
+  header h2 {
+    color: #000;
+    margin-left: 40px;
+    font-size: 1.2em;
+  }
+  header ul {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    justify-content: space-evenly;
+  }
+  header ul li {
+    list-style: none;
+  }
+  header a {
+    text-decoration: none;
+    font-size: 1.3em;
+    color: #000;
+  }
+  header button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.1em;
+    color: #000;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    letter-spacing: 1px;
+    margin-left: 5px;
+    background-color: #DD5B5B;
+  }
+  header button:hover {
+    transform: translateY(-3px);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .activeColor {
+    color: #3f7fa8;
+  }
+  
+  .humberger {
+    cursor: pointer;
+    display: none;
+    width: 40px;
+  }
+  .humberger .bar {
+    margin: 6px;
+    height: 3px;
+    display: block;
+    background-color: #000;
+    border-radius: 10%;
+    font-size: 1.3em;
+    transition: 0.5s;
+  }
+  .humberger.active .bar:nth-child(1) {
+    transform: translateY(4px) rotate(45deg);
+  }
+  .humberger.active .bar:nth-child(3) {
+    transform: translateY(-4px) rotate(-45deg);
+  }
+  .humberger.active .bar:nth-child(2) {
+    display: none;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    width: 45%;
+    justify-content: flex-end;
+  }
+  nav.active {
+    top: 300px;
+  }
+  
+  .navMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  @media (max-width: 1024px) {
+    .humberger {
+      display: block;
+    }
+    nav {
+      position: absolute;
+      transform: translate(-50%, -50%);
+      top: -200px;
+      left: 50%;
+      z-index: 10;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 250px;
+      border-radius: 12px;
+      background-color: #C49D83;
+      font-weight: bold;
+      transition: 0.5s;
+      width: 50%;
+      padding-bottom: 15px;
+      padding-top: 15px;
+    }
+    nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      height: 100%;
+      width: 100%;
+    }
+    nav ul li {
+      width: 100%;
+    }
+    nav ul li a {
+      width: 100%;
+      text-align: center;
+      display: inline-block;
+    }
+  }
+  h2{
+    font-size: Katibeh;
+  }
+
+.mb-3 > div ,.text-center >div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+p{
+    font-size: 20px;
+}
+.pourquoi{
+    margin: 30px;
+}
+.btn1{
+  background-color: #C49D83;
+  width: 35%;
+  height: 50px;
+  position: relative;
+  top: 12px;
+ right: 32%;
+}
