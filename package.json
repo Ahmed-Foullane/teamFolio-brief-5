@@ -1,12 +1,10 @@
 {
     "scripts": {
-    "watch": "npx tailwindcss -i ./src/styles/input.css -o ./src/styles/output.css --watch",
-    "sass": "sass --watch ./src/sass/main.scss:./src/styles/main.css"
+        "watch": "npx tailwindcss -i ./src/styles/input.css -o ./src/styles/output.css --watch",
+        "sass": "sass --watch ./src/sass/Equipe.scss:./src/styles/Equipe.css"
     },
     "devDependencies": {
-    "sass": "^1.80.6",
-    "tailwindcss": "^3.4.14"
+        "sass": "^1.80.6",
+        "tailwindcss": "^3.4.14"
     }
 }
-
-

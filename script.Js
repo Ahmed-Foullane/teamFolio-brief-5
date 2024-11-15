@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initialize positions
     updateSlidePositions();
 
-    // Event listeners
-    nextBtn.addEventListener('click', goToNext);
-    prevBtn.addEventListener('click', goToPrev);
+    // // Event listeners
+    // nextBtn.addEventListener('click', goToNext);
+    // prevBtn.addEventListener('click', goToPrev);
 });

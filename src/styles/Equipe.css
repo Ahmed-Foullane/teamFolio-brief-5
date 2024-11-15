@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  background-color: #f5efe6;
+  color: #555;
+  line-height: 1.6;
+}
+
+.equipe-hero-section img {
+  width: 100%;
+}
+
+.equipe-desc {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 40vh;
+  gap: 50px;
+}
+.equipe-desc h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+.equipe-desc p {
+  font-size: 1rem;
+  max-width: 600px;
+  color: #333;
+}
+
+.equipe-hr {
+  width: 50%;
+  margin: 0 auto;
+  border: none;
+  height: 1px;
+  background-color: #333;
+}
+
+#team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+#team .team-member {
+  background-color: #f5efe6;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  margin: 1.5rem 0;
+  padding: 2rem;
+  text-align: center;
+  max-width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#team .team-member .member-img {
+  border-radius: 50%;
+  width: 347px;
+  height: 347px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+#team .team-member .team-description {
+  text-align: start;
+}
+#team .team-member h2 {
+  color: #000000;
+}
+#team .team-member p {
+  margin-bottom: 0.5rem;
+}
+#team .equipe-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+#team .equipe-icons i {
+  font-size: 1.2rem;
+  color: #000000;
+  cursor: pointer;
+  background-color: #D5CABC;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#team .portfolio-button {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 10px 15px;
+  background-color: #D5CABC;
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+#team .portfolio-button:hover {
+  background-color: #b3a695;
+  transform: translateY(-3px);
+}
+#team .portfolio-button:active {
+  background-color: #b3a695;
+}
+
+#portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: #f5efe6;
+}
+#portfolio .profil-member {
+  width: 100%;
+  margin: 1.5rem 0;
+  padding: 2rem;
+  text-align: center;
+  max-width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#portfolio .profil-member .member-img {
+  border-radius: 5%;
+  width: 347px;
+  height: 347px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+}
+#portfolio .profil-member .team-description {
+  text-align: start;
+}
+#portfolio .profil-member h2 {
+  color: #000000;
+}
+#portfolio .profil-member p {
+  margin-bottom: 0.5rem;
+}
+
+.profil-section2 {
+  background-color: #f5efe6;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.accordion {
+  width: 50%;
+}
+
+.equipe-form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 20px;
+  background-color: #D5CABC;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.equipe-form .equipe-label {
+  margin-top: 10px;
+  color: #000;
+  font-weight: bold;
+}
+.equipe-form .equipe-input[type=text],
+.equipe-form .equipe-input[type=email],
+.equipe-form button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #c09a7d;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.edit-button {
+  background-color: #c09a7d;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  font-size: 1.2rem;
+}
+.edit-button i {
+  font-size: 1.1rem;
+  color: inherit;
+}
+.edit-button:hover {
+  background-color: rgb(175.3523316062, 127.310880829, 90.6476683938);
+  transform: scale(1.05);
+}
+.edit-button:active {
+  background-color: rgb(161.9948186528, 114.6424870466, 78.5051813472);
+}
+
+@media (max-width: 768px) {
+  .team-member {
+    display: flex;
+    flex-direction: column;
+    width: calc(50% - 10px * 2);
+  }
+  .profil-member {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media (max-width: 480px) {
+  .team-member {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=Equipe.css.map */
