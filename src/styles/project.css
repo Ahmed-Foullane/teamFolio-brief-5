@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Katibeh&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: katibeh;
+  }
+
+  .all-bod-pro{
+    background: #F5EFE6;
+  }
+  .container-fluid{
+    padding-top: 3rem;
+  }

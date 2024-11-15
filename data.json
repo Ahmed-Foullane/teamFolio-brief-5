@@ -196,7 +196,7 @@
     
       "projets": [
           {
-              "img-projet": "image lawla",
+              "img-projet": "../assets../images../../imh1.png" ,
               "lien-img-projet": "lien image 1",
               "date-projet": "4/8/2023",
               "vue-projet": 55
@@ -205,7 +205,7 @@
               "avis-projet": [
                   {
                       "avi-name": "john",
-                      "avi-text": "tre bon projet machallah ",
+                      "avi-text": "tre bon projet",
                       "avi-star": 4
                   },
                   {
@@ -216,7 +216,7 @@
               ]
           },
           {
-              "img-projet": "image tanya",
+              "img-projet": "image 2",
               "lien-img-projet": "lien kimakimage 2",
               "date-projet": "12/1/2024",
               "vue-projet": 67
@@ -236,7 +236,7 @@
               ]
           },
           {
-              "img-projet": "image talta",
+              "img-projet": "image 3",
               "lien-img-projet": "lien image 3",
               "date-projet": "4/8/2023",
               "vue-projet": 84
@@ -254,8 +254,30 @@
                       "avi-star": 4
                   }
               ]
-          }
+          },
+          {
+            "img-projet": "image 4",
+            "lien-img-projet": "lien image 3",
+            "date-projet": "4/8/2023",
+            "vue-projet": 84
+        },
+        {
+            "avis-projet": [
+                {
+                    "avi-name": "driven",
+                    "avi-text": "tre bon projet machallah ",
+                    "avi-star": 5
+                },
+                {
+                    "avi-name": "darius",
+                    "avi-text": "bon projet bon quality ",
+                    "avi-star": 4
+                }
+            ]
+        }
       ],
+      
+      
   
   
     "services": [
